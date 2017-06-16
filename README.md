@@ -1,6 +1,6 @@
 ## Laravel PHP Word v1.0
 
-Laravel Excel brings the power of PHPOffice's PHPExcel to Laravel 4 and 5 with a touch of the Laravel Magic. It includes features like: 
+Laravel Excel brings the power of PHPOffice's PHPExcel https://github.com/PHPOffice/PHPWord  to Laravel 4 and 5 with a touch of the Laravel Magic. It includes features like: 
 ...
 
 #Installation
