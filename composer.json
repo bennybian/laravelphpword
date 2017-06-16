@@ -1,0 +1,22 @@
+{
+    "name": "bennybian/laravelphpword",
+    "description": "An eloquent way of write and read Word in Laravel 4 with the power of PHPWord",
+    "license": "LGPL",
+    "keywords": ["laravel", "phpword", "word"],
+    "authors": [
+        {
+            "name": "Benny Bian",
+            "email": "bzh99@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+		"phpoffice/phpword": "v0.13.*"
+    },
+    "autoload": {
+       
+		"psr-4": {
+          "LPHPWord\\": "src/lphpword"
+        }
+    },
+ }
