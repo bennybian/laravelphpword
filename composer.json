@@ -15,7 +15,7 @@
     },
     "autoload": {
 		"psr-4": {
-          "LPHPWord\\": "src/lphpword"
+          "Lphpword\\": "src/lphpword"
         }
     }
  }
