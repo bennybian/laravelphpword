@@ -14,9 +14,8 @@
 		"phpoffice/phpword": "v0.13.*"
     },
     "autoload": {
-       
 		"psr-4": {
           "LPHPWord\\": "src/lphpword"
         }
-    },
+    }
  }
