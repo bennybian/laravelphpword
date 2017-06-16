@@ -1,38 +1,7 @@
 ## Laravel PHP Word v1.0
 
-Laravel Excel brings the power of PHPOffice's PHPExcel to Laravel 4 and 5 with a touch of the Laravel Magic. It includes features like: importing Excel and CSV to collections, exporting models, array's and views to Excel, importing batches of files and importing a file by a config file.
-
-- Import into Laravel **Collections**
-- Export **Blade views** to Excel and CSV with optional CSS styling
-- **Batch** imports
-- A lot of optional **config settings**
-- Easy **cell caching**
-- Chunked importer
-- ExcelFile method injections (Laravel ~5.0)
-- Editing existing Excel files
-- **Advanced import** by config files
-- and many more...
-
----
-
-```php
-Excel::create('Laravel Excel', function($excel) {
-
-    $excel->sheet('Excel sheet', function($sheet) {
-
-        $sheet->setOrientation('landscape');
-
-    });
-
-})->export('xls');
-```
-
----
-
-[![Build Status](https://travis-ci.org/Maatwebsite/Laravel-Excel.svg?branch=master)](https://travis-ci.org/Maatwebsite/Laravel-Excel)
-[![Latest Stable Version](https://poser.pugx.org/maatwebsite/excel/v/stable.png)](https://packagist.org/packages/maatwebsite/excel) [![Total Downloads](https://poser.pugx.org/maatwebsite/excel/downloads.png)](https://packagist.org/packages/maatwebsite/excel)  [![License](https://poser.pugx.org/maatwebsite/excel/license.png)](https://packagist.org/packages/maatwebsite/excel)
-[![Monthly Downloads](https://poser.pugx.org/maatwebsite/excel/d/monthly.png)](https://packagist.org/packages/maatwebsite/excel)
-[![Daily Downloads](https://poser.pugx.org/maatwebsite/excel/d/daily.png)](https://packagist.org/packages/maatwebsite/excel)
+Laravel Excel brings the power of PHPOffice's PHPExcel to Laravel 4 and 5 with a touch of the Laravel Magic. It includes features like: 
+...
 
 #Installation
 
@@ -59,16 +28,6 @@ The class is bound to the ioC as `excel`
 ```php
 $excel = App::make('excel');
 ```
-
-# Documentation
-
-The complete documentation can be found at: [http://www.maatwebsite.nl/laravel-excel/docs](http://www.maatwebsite.nl/laravel-excel/docs)
-
-# Contributing
-
-**ALL** bug fixes should be made to appropriate branch (e.g. `1.3` for 1.3.* bug fixes). Bug fixes should never be sent to the `master` branch.
-
-More about contributing can be found at: [http://www.maatwebsite.nl/laravel-excel/docs/getting-started#contributing](http://www.maatwebsite.nl/laravel-excel/docs/getting-started#contributing)
 
 # License
 
